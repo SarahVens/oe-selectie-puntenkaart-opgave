@@ -12,25 +12,13 @@
         <Label Content="Wiskunde" HorizontalAlignment="Left" Margin="32,106,0,0" VerticalAlignment="Top"/>
         <Label Content="Talen" HorizontalAlignment="Left" Margin="32,140,0,0" VerticalAlignment="Top"/>
         <Label Content="Gewicht" HorizontalAlignment="Left" Margin="180,42,0,0" VerticalAlignment="Top"/>
-        <ComboBox x:Name="cmbWetenschappen" SelectedValuePath="Content" HorizontalAlignment="Left" Margin="180,75,0,0" VerticalAlignment="Top" Width="52" SelectedIndex="2" SelectionChanged="CmbWetenschappen_SelectionChanged">
-            <ComboBoxItem Content="1"/>
-            <ComboBoxItem Content="2"/>
-            <ComboBoxItem Content="3" />
-        </ComboBox>
-        <ComboBox x:Name="cmbWiskunde"  SelectedValuePath="Content" HorizontalAlignment="Left" Margin="180,108,0,0" VerticalAlignment="Top" Width="52" SelectedIndex="1" SelectionChanged="CmbWiskunde_SelectionChanged">
-            <ComboBoxItem Content="1"/>
-            <ComboBoxItem Content="2"/>
-            <ComboBoxItem Content="3" />
-        </ComboBox>
-        <ComboBox x:Name="cmbTalen" SelectedValuePath="Content"  HorizontalAlignment="Left" Margin="180,144,0,0" VerticalAlignment="Top" Width="52" SelectedIndex="0" SelectionChanged="CmbTalen_SelectionChanged">
-            <ComboBoxItem Content="1"/>
-            <ComboBoxItem Content="2"/>
-            <ComboBoxItem Content="3" />
-        </ComboBox>
+        <ComboBox x:Name="cmbWetenschappen" SelectedValuePath="Content" HorizontalAlignment="Left" Margin="180,75,0,0" VerticalAlignment="Top" Width="52" SelectedIndex="2" SelectionChanged="cmbWetenschappen_SelectionChanged"/>
+        <ComboBox x:Name="cmbWiskunde"  SelectedValuePath="Content" HorizontalAlignment="Left" Margin="180,108,0,0" VerticalAlignment="Top" Width="52" SelectedIndex="1" SelectionChanged="cmbWiskunde_SelectionChanged"/>
+        <ComboBox x:Name="cmbTalen" SelectedValuePath="Content"  HorizontalAlignment="Left" Margin="180,144,0,0" VerticalAlignment="Top" Width="52" SelectedIndex="0" SelectionChanged="cmbTalen_SelectionChanged"/>
         <Label Content="Score / 10" HorizontalAlignment="Left" Margin="271,42,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.367,0.504"/>
-        <TextBox x:Name="txtWetenschappen" HorizontalAlignment="Left" Height="23" Margin="271,73,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="64" TextAlignment="Right" TextChanged="TxtWetenschappen_TextChanged" GotFocus="TxtWetenschappen_GotFocus"/>
-        <TextBox x:Name="txtWiskunde" HorizontalAlignment="Left" Height="23" Margin="271,106,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="64" TextAlignment="Right" TextChanged="TxtWiskunde_TextChanged" GotFocus="TxtWiskunde_GotFocus"/>
-        <TextBox x:Name="txtTalen" HorizontalAlignment="Left" Height="23" Margin="271,144,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="64" TextAlignment="Right" TextChanged="TxtTalen_TextChanged" GotFocus="TxtTalen_GotFocus"/>
+        <TextBox x:Name="txtWetenschappen" HorizontalAlignment="Left" Height="23" Margin="271,73,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="64" TextAlignment="Right" TextChanged="txtWetenschappen_TextChanged"/>
+        <TextBox x:Name="txtWiskunde" HorizontalAlignment="Left" Height="23" Margin="271,106,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="64" TextAlignment="Right" TextChanged="txtWiskunde_TextChanged"/>
+        <TextBox x:Name="txtTalen" HorizontalAlignment="Left" Height="23" Margin="271,144,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="64" TextAlignment="Right" TextChanged="txtTalen_TextChanged"/>
         <Label Content="Na weging" HorizontalAlignment="Left" Margin="365,42,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.367,0.504"/>
         <Label x:Name="lblWetenschappen" Content="" HorizontalAlignment="Left" Margin="365,70,0,0" VerticalAlignment="Top" Width="67" BorderBrush="DarkGray" BorderThickness="1" ClipToBounds="True"  />
         <Label x:Name="lblWiskunde" Content="" HorizontalAlignment="Left" Margin="365,102,0,0" VerticalAlignment="Top" Width="67"  BorderBrush="DarkGray" BorderThickness="1" ClipToBounds="True" />
@@ -39,7 +27,7 @@
         <Label x:Name="lblBehaald" Content="" HorizontalAlignment="Left" Margin="365,189,0,0" VerticalAlignment="Top" Width="67"  BorderBrush="DarkGray" BorderThickness="1" ClipToBounds="True" />
         <Label Content="Beoordeling" HorizontalAlignment="Left" Margin="271,274,0,0" VerticalAlignment="Top" Width="161"/>
         <Label x:Name="lblBeoordeling" Content="" HorizontalAlignment="Left" Margin="19,300,0,0" VerticalAlignment="Top" Width="413"  BorderBrush="DarkGray" BorderThickness="1" ClipToBounds="True" />
-        <Button x:Name="btnReset" Content="Reset" HorizontalAlignment="Left" Margin="19,346,0,0" VerticalAlignment="Top" Width="75" Click="BtnReset_Click"/>
+        <Button x:Name="btnReset" Content="Reset" HorizontalAlignment="Left" Margin="19,346,0,0" VerticalAlignment="Top" Width="75" Click="btnReset_Click"/>
         <Label Content="Behaald procent" HorizontalAlignment="Left" Margin="233,230,0,0" VerticalAlignment="Top" Width="102"/>
         <Label x:Name="lblProcent" Content="" HorizontalAlignment="Left" Margin="365,228,0,0" VerticalAlignment="Top" Width="67"  BorderBrush="DarkGray" BorderThickness="1" ClipToBounds="True" />
 
