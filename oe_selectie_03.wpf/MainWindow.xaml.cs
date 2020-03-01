@@ -178,9 +178,19 @@ namespace oe_selectie_03.wpf
             }
         }
 
+        private void txtWetenschappen_GotFocus(object sender, RoutedEventArgs e)
+        {
+            txtWetenschappen.SelectAll();
+        }
 
+        private void txtWiskunde_GotFocus(object sender, RoutedEventArgs e)
+        {
+            txtWiskunde.SelectAll();
+        }
 
-
-
+        private void txtTalen_GotFocus(object sender, RoutedEventArgs e)
+        {
+            txtTalen.SelectAll();
+        }
     }
 }
